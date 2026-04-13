@@ -18,7 +18,7 @@ export default function HeroSection() {
           alt="Modern House"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/40 via-black/20 to-black/60" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
@@ -84,7 +84,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="bg-white rounded-full p-2 shadow-2xl max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-2"
+          className="bg-white rounded-4xl p-2 shadow-2xl max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-2"
         >
           <div className="flex-1 w-full md:w-auto px-6 py-3 border-b md:border-b-0 md:border-r border-slate-100">
             <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
@@ -104,7 +104,7 @@ export default function HeroSection() {
               <ChevronDown size={16} className="text-slate-400" />
             </div>
           </div>
-          <div className="flex-[2] w-full md:w-auto px-6 py-3">
+          <div className="flex-2 w-full md:w-auto px-6 py-3">
             <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
               {t.hero.location}
             </label>
