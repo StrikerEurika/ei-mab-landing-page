@@ -1,94 +1,97 @@
 export const en = {
   // Navigation
   nav: {
+    title: 'E Mab Guesthouse',
     home: 'Home',
     about: 'About',
-    properties: 'Properties',
+    properties: 'Rooms',
     news: 'News',
     contact: 'Contact',
-    getStarted: 'Get Started'
+    getStarted: 'Book Now'
   },
   // Hero
   hero: {
-    title: 'More Than a Home.',
-    subtitle: 'Build Your Future',
-    description: 'Dive into a world of comfort and convenience as we connect you with the finest homes, ensuring a perfect getaway tailored to your preferences.',
-    rentBuy: 'Rent/Buy',
-    rent: 'Rent',
-    type: 'Type',
-    house: 'House',
+    title: 'More Than a Stay.',
+    subtitle: 'Experience Home Away From Home',
+    description: 'Dive into a world of comfort and hospitality as we welcome you to our cozy guesthouse, ensuring a perfect getaway tailored to your preferences.',
+    rentBuy: 'Room Type',
+    rent: 'Guest Room',
+    type: 'Guest Type',
+    house: 'Private Room',
     location: 'Location',
-    findProperty: 'Find Property'
+    findProperty: 'Find Room',
+    placeLocation: 'Phnum Kravanh, Pothisat Province'
+
   },
   // Services
   services: {
-    title: 'Expert Guides to Finding Your Perfect Fit',
-    buyTitle: 'Buy Properties',
-    buyDesc: 'Discover the perfect property that reflects your unique style and needs. Transform it into your personal haven, filled with cherished memories and the joy of building equity.',
-    sellTitle: 'Sell Properties',
-    sellDesc: 'Our expertise ensures you get the true value your property deserves. Sell your property seamlessly and efficiently, opening a new chapter with peace of mind and financial security.',
-    rentTitle: 'Rent Properties',
-    rentDesc: 'Find the ideal rental that suits your lifestyle without the hassle. We connect you with premium listings and handle the paperwork so you can move in stress-free.',
+    title: 'What Makes Your Stay Special',
+    buyTitle: 'Comfortable Rooms',
+    buyDesc: 'Rest in our thoughtfully designed rooms that blend comfort with charm. Each space is crafted to be your personal retreat, filled with warmth and the promise of a rejuvenating stay.',
+    sellTitle: 'Event Hosting',
+    sellDesc: 'Host your special gatherings in our versatile guesthouse. From intimate celebrations to corporate retreats, we provide seamless service and attention to detail for unforgettable experiences.',
+    rentTitle: 'Extended Stays',
+    rentDesc: 'Enjoy the flexibility of long-term stays with all the comforts of home. We handle the details so you can settle in stress-free and make yourself at home.',
     learnMore: 'Learn More'
   },
   // Featured
   featured: {
-    subtitle: 'Move-In Ready Gems:',
-    title: 'Discover Your Dream Home Today',
-    futuristic: 'The Futuristic House',
-    minimalist: 'The Minimalist House',
-    description: 'Our expertise ensures you get the true value your property deserves. Sell your property seamlessly and efficiently, opening a new chapter with peace of mind and financial security.'
+    subtitle: 'Our Signature Rooms:',
+    title: 'Discover Your Perfect Retreat',
+    futuristic: 'The Modern Suite',
+    minimalist: 'The Cozy Classic',
+    description: 'Each room is uniquely designed to provide the ultimate comfort and relaxation. Enjoy thoughtful amenities and a peaceful atmosphere that makes every stay memorable.'
   },
   // Properties
   properties: {
-    subtitle: 'Explore Your Options',
-    title: 'Find Your Perfect Match'
+    subtitle: 'Explore Our Rooms',
+    title: 'Find Your Ideal Stay'
   },
   // Articles
   articles: {
-    subtitle: 'Insights & Innovations',
-    title: 'Uncover the Latest',
+    subtitle: 'Stories & Updates',
+    title: 'Latest From Our Guesthouse',
     readMore: 'Read More'
   },
   // FAQ
   faq: {
     title: 'General FAQs',
-    q1: 'Does Dream House Estate provide after-sales services?',
-    a1: 'Yes, we offer comprehensive after-sales support including property management, maintenance coordination, and rental assistance to ensure your investment remains secure and profitable.',
-    q2: 'Does Dream House Estate offer financing options?',
-    a2: 'Absolutely. We have partnered with leading financial institutions to provide you with flexible mortgage options and competitive interest rates tailored to your needs.',
-    q3: 'How long will it take to sell my house?',
-    a3: 'The timeline varies based on market conditions, pricing, and property location. However, our expert marketing strategies typically secure offers within 30-60 days.',
-    q4: 'How can I schedule a tour of a property?',
-    a4: "You can schedule a tour directly through our website by clicking 'Schedule Tour' on any listing, or by contacting our support team via phone or email."
+    q1: 'What amenities are included in the rooms?',
+    a1: 'All our rooms include complimentary Wi-Fi, fresh linens, toiletries, and access to common areas. We also provide breakfast and can arrange special requests to make your stay more comfortable.',
+    q2: 'Do you offer special rates for long stays?',
+    a2: 'Absolutely. We offer discounted rates for weekly and monthly stays, along with flexible booking options tailored to extended guests who want to make our guesthouse their temporary home.',
+    q3: 'How can I cancel or modify my reservation?',
+    a3: 'You can easily manage your booking through our website or by contacting our friendly staff. We offer flexible cancellation policies up to 48 hours before check-in.',
+    q4: 'How can I book a room?',
+    a4: "You can book directly through our website by selecting your preferred dates and room type, or by contacting our team via phone or email for personalized assistance."
   },
   // Testimonials
   testimonials: {
-    subtitle: 'Hear from Your Neighbors,',
-    title: 'Why They Chose Us',
-    t1Text: 'Needed a quick sale. Dream House delivered an amazing offer, exceeding expectations! So grateful for their expertise.',
-    t2Text: 'Buying our first home was a dream come true thanks to the Dream House team. They made the process so smooth and easy.',
-    t3Text: 'Professional, knowledgeable, and always available. They helped me find the perfect investment property in record time.'
+    subtitle: 'Hear From Our Guests,',
+    title: 'Why They Love Staying With Us',
+    t1Text: 'Wonderful experience! The guesthouse exceeded all expectations. The staff was incredibly welcoming and the room was spotless and cozy.',
+    t2Text: 'Felt like a home away from home. The atmosphere is warm, the breakfast is amazing, and the location is perfect for exploring the area.',
+    t3Text: 'Professional, hospitable, and always attentive. They made our anniversary celebration truly special with thoughtful touches and excellent service.'
   },
   // CTA
   cta: {
-    title: 'Find Your Dream Home Faster',
-    description: 'Dive into a world of comfort and convenience as we connect you with the finest homes, ensuring a perfect getaway tailored to your preferences.',
-    getStarted: 'Get Started'
+    title: 'Book Your Perfect Getaway',
+    description: 'Dive into a world of comfort and hospitality as we welcome you to our cozy guesthouse, ensuring a memorable stay tailored just for you.',
+    getStarted: 'Book Now'
   },
   // Footer
   footer: {
-    description: 'Your trusted partner in finding the perfect property. We make the journey to your new home simple, transparent, and enjoyable.',
+    description: 'Your home away from home. We make every stay simple, warm, and memorable with genuine hospitality and thoughtful touches.',
     quickLinks: 'Quick Links',
     home: 'Home',
     aboutUs: 'About Us',
-    properties: 'Properties',
+    properties: 'Our Rooms',
     news: 'News',
     contact: 'Contact',
-    email: 'contact@homefinder.io',
+    email: 'hello@guesthouse.com',
     phone: '+1 (555) 123-4567',
-    address: '123 Real Estate Ave,\nNew York, NY 10001',
-    rights: '© 2024 homefinder, Inc. All Rights Reserved.',
+    address: '123 Hospitality Lane,\nCharming Town, CT 10001',
+    rights: '© 2024 GuestHouse. All Rights Reserved.',
     privacy: 'Privacy Policy',
     terms: 'Terms of Service'
   },
