@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { useLanguage } from '../../contexts/LanguageContext';
-import SectionHeading from '../ui/SectionHeading';
+import { motion } from "framer-motion";
+import { useLanguage } from "../../contexts/LanguageContext";
+import SectionHeading from "../ui/SectionHeading";
 
 export default function FeaturedSection() {
   const { t } = useLanguage();
@@ -9,15 +9,15 @@ export default function FeaturedSection() {
     {
       num: "01",
       title: t.featured.futuristic,
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop",
-      desc: t.featured.description
+      image: "/image-03.jpg",
+      desc: t.featured.description,
     },
     {
       num: "02",
       title: t.featured.minimalist,
-      image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop",
-      desc: t.featured.description
-    }
+      image: "/image-02.jpg",
+      desc: t.featured.description,
+    },
   ];
 
   return (
@@ -46,9 +46,13 @@ export default function FeaturedSection() {
                 />
               </div>
               <div className="flex gap-6">
-                <span className="text-4xl font-serif text-slate-200 font-bold pt-1">{item.num}</span>
+                <span className="text-4xl font-serif text-slate-200 font-bold pt-1">
+                  {item.num}
+                </span>
                 <div>
-                  <h3 className="text-2xl font-serif font-medium mb-3">{item.title}</h3>
+                  <h3 className="text-2xl font-serif font-medium mb-3">
+                    {item.title}
+                  </h3>
                   <p className="text-slate-500 leading-relaxed text-sm">
                     {item.desc}
                   </p>
