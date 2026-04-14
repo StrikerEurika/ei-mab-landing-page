@@ -88,10 +88,10 @@ export const en = {
     properties: 'Our Rooms',
     news: 'News',
     contact: 'Contact',
-    email: 'hello@guesthouse.com',
-    phone: '+1 (555) 123-4567',
+    email: 'ngentina12345@gmail.com',
+    phone: '(+855) 97 7979 220',
     address: '123 Hospitality Lane,\nCharming Town, CT 10001',
-    rights: '© 2024 GuestHouse. All Rights Reserved.',
+    rights: '© 2018 E Mab Guesthouse. All Rights Reserved.',
     privacy: 'Privacy Policy',
     terms: 'Terms of Service'
   },

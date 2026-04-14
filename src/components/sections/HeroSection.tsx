@@ -115,7 +115,10 @@ export default function HeroSection() {
               </span>
             </div>
           </div>
-          <Button className="w-full md:w-auto rounded-full px-8 bg-slate-900 hover:bg-slate-800 text-white shadow-lg">
+          <Button
+            onClick={() => (window.location.href = "tel:+855977979220")}
+            className="w-full md:w-auto rounded-full px-8 bg-slate-900 hover:bg-slate-800 text-white shadow-lg"
+          >
             {t.hero.findProperty}
           </Button>
         </motion.div>

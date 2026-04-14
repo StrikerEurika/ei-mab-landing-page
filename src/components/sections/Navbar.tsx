@@ -88,6 +88,7 @@ export default function Navbar({ onScrollToSection }: NavbarProps) {
           <div className="hidden md:flex items-center gap-4">
             <Button
               variant="white"
+              onClick={() => (window.location.href = "tel:+855977979220")}
               className="shadow-md hover:shadow-lg transition-shadow"
             >
               {t.nav.getStarted}
@@ -116,7 +117,7 @@ export default function Navbar({ onScrollToSection }: NavbarProps) {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden bg-white border-b border-slate-100 overflow-hidden"
+              className="md:hidden bg-white border-b border-slate-100"
             >
               <div className="px-4 py-6 space-y-4 flex flex-col">
                 {navItems.map((item) => (
@@ -130,7 +131,7 @@ export default function Navbar({ onScrollToSection }: NavbarProps) {
                 ))}
                 <Button className="w-full mt-4">{t.nav.getStarted}</Button>
                 <div className="flex justify-center pt-2">
-                  <LanguageSwitcher />
+                  <LanguageSwitcher variant="mobile" />
                 </div>
               </div>
             </motion.div>
